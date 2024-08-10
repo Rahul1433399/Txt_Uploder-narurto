@@ -12,7 +12,6 @@ from pyrogram import Client, filters
 from p_bar import progress_bar
 from subprocess import getstatusoutput
 from aiohttp import ClientSession
-import helper
 from logger import logging
 import time
 import asyncio
@@ -23,9 +22,9 @@ import re
 import os
 
 bot = Client("bot",
-             bot_token= "6443500984:AAFnlR6aZGhP1v_GJpAyUQViwdrrq385h98",
-             api_id= 21408627,
-             api_hash= "465cca6fa782695983d49db306e0f8be")
+             bot_token= "7030512672:AAH_1BOWLHDDMoQAxSwXmiEUCfiDulBz3qs",
+             api_id= 28760367,
+             api_hash= "c0d4308321c6703b82a27b0c9966ceaa")
 
 
 @bot.on_message(filters.command(["start"]) & filters.user(ADMINS))
